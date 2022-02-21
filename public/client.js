@@ -1,5 +1,5 @@
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
-import { OrbitControls } from 'https://unpkg.com/three@0.127.0/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js';
 import Stats from '../jsm/libs/stats.module.js';
 
 // all tools are exported from the "all" file 
