@@ -4,7 +4,7 @@ import Stats from 'https://unpkg.com/three@0.127.0/examples/jsm/libs/stats.modul
 
 // all tools are exported from the "all" file 
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "https://unpkg.com/gsap@3.9.1/all.js";
-import Flip from "../gsap/Flip.js";
+import Flip from "https://unpkg.com/gsap@3.9.1/Flip.js";
 
 // To register plugins
 gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin); 
