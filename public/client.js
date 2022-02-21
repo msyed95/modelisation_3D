@@ -3,7 +3,7 @@ import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/cont
 import Stats from 'https://unpkg.com/three@0.127.0/examples/jsm/libs/stats.module.js';
 
 // all tools are exported from the "all" file 
-import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "../gsap/all.js";
+import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "https://unpkg.com/gsap@3.9.1/all.js";
 import Flip from "../gsap/Flip.js";
 
 // To register plugins
