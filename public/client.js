@@ -1,10 +1,10 @@
-import * as THREE from '/build/three.module.js';
-import { OrbitControls } from '/jsm/controls/OrbitControls.js';
-import Stats from '/jsm/libs/stats.module.js';
+import * as THREE from '../build/three.module.js';
+import { OrbitControls } from '../jsm/controls/OrbitControls.js';
+import Stats from '../jsm/libs/stats.module.js';
 
 // all tools are exported from the "all" file 
-import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "/gsap/all.js";
-import Flip from "/gsap/Flip.js";
+import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "../gsap/all.js";
+import Flip from "../gsap/Flip.js";
 
 // To register plugins
 gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin); 
