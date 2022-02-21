@@ -1,4 +1,4 @@
-import * as THREE from './node_modules/three/build/three.module.js';
+import * as THREE from '/modelisation_3D/main/node_modules/three/build/three.module.js';
 import { OrbitControls } from '/jsm/controls/OrbitControls.js';
 import Stats from '/jsm/libs/stats.module.js';
 
